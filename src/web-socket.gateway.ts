@@ -23,7 +23,7 @@ export class WebsocketGateway
   server: Server;
 
   afterInit(server: Server) {
-    console.log("server start listening on port 3001");
+    console.log("web socket start listening on port 3001");
   }
 
   handleDisconnect(client: Socket) {}
