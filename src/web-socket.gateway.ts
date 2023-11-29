@@ -11,8 +11,7 @@ import {
 import { Socket, Server } from "socket.io";
 
 @WebSocketGateway({
-  cors: { origin: true, credentials: true },
-  allowEIO3: true,
+  cors:true,
 })
 export class WebsocketGateway
   implements OnGatewayDisconnect, OnGatewayConnection, OnGatewayInit
